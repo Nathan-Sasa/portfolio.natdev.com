@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Caramella';
+    src: url(/angularTest/src/asset/font/Caramella_Regular.ttf);
+}
+
+
+:root{
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+
+    --font-primary: 'Caramella', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cyclo', sans-serif;
+    transition: .3s ease;
+}
+
+header{
+    width: 100vw;
+    height: auto;
+    border: 1px solid #000;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+.headerContainer{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 20px; */
+}
+.profileContainer{
+    /* width: 30%; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileContainer .profilePicture{
+    width: 50px;
+    height: 50px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -4 35 35' fill='purple'%3E%3Cpath d='M4 22C4 17.5817 7.58172 14 12 14C16.4183 14 20 17.5817 20 22H4ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13Z'%3E%3C/path%3E%3C/svg%3E") no-repeat;
+    background-size: 50px;
+}
+.profileDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileDetails h2{
+    font-size: 1.5rem;
+}
+.profileDetails p{
+    font-size: .8rem;
+    color: #6c757d;
+}
+header nav{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav a{
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #dc3545;
+}

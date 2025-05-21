@@ -1,0 +1,14 @@
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: aqua;
+}
+p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: antiquewhite;
+}
