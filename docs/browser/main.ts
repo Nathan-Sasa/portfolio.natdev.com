@@ -1,11 +1,11 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { appConfig } from '../../src/app/app.config';
+import { AppComponent } from '../../src/app/app.component';
 import { Routes } from '@angular/router';
-import { HomeComponent } from './component/home/home.component';
-import { AboutComponent } from './component/about/about.component';
-import { ContactComponent } from './component/contact/contact.component';
-import { NotFoundComponent } from './component/not-found/not-found.component';
+import { HomeComponent } from '../../src/component/home/home.component';
+import { AboutComponent } from '../../src/component/about/about.component';
+import { ContactComponent } from '../../src/component/contact/contact.component';
+import { NotFoundComponent } from '../../src/component/not-found/not-found.component';
 
 import { provideRouter } from '@angular/router';
 
