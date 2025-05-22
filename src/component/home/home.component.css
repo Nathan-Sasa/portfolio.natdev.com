@@ -21,9 +21,7 @@
 
 main{
     width: 100vw;
-    /* height: 100vh; */
-    /* background: #000; */
-    /* border: 1px solid #000; */
+    height: auto;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -192,18 +190,36 @@ main section:nth-child(2) div img{
         /* border: 1px solid; */
         width: 100vw;
     }
+    main section:nth-child(1) div h2:nth-child(1){
+        font-size: 1.5rem;
+    }
+    main section:nth-child(1) div h2:nth-child(2){
+        font-size: 3rem;
+    }
+    main section:nth-child(1) div p{
+        font-size: 1rem;
+    }
     main section:nth-child(1) ul{
         width: 100vw;
         position: absolute;
-        bottom: -80vh;
+        bottom: -60vh;
     }
     main section:nth-child(1) .btnContact{
         width: 100vw;
         height: 100px;
         position: absolute;
-        bottom: -95vh;
+        bottom: -80vh;
+        margin-bottom: 50px;
     }
     main section:nth-child(2) div{
-        margin-bottom: 170px;
+        margin-bottom: 10px;
+        width: 350px;
+        height: 350px;
+    }
+    main section:nth-child(2) div img{
+        /* width: 400px; */
+        /* height: 400px; */
+        top: -75%;
+        left: -20%;
     }
 }

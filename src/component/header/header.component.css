@@ -99,4 +99,9 @@ header nav a:hover{
         justify-content: start;
         gap: 35px;
     }
+    .profileContainer{
+        position: absolute;
+        /* left: -99%; */
+        right: -99%;
+    }
 }
