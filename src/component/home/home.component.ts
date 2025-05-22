@@ -8,5 +8,15 @@ import { RouterModule } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+   person = {
+    name: 'Nathan Sasa',
+    job : `Developer Web`,
+    description: 'I am a developer web',
+  }
+  links ={
+    github: '',
+    linkedin: '',
+    whatsapp: '',
+    facebook: '',
+  }
 }

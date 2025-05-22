@@ -8,5 +8,10 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  appName:string = 'New app test ' 
+  appName:string = 'Portfolio ' 
+  dev = {
+    name : 'Nathan Sasa',
+    work : 'Web Developper',
+    profile: ''
+  }
 }
