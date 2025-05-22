@@ -37,6 +37,18 @@ header{
     justify-content: space-between;
     padding: 10px 5%;
     gap: 10px;
+    overflow-x: hidden;
+    animation: header .3s ease-in-out forwards;
+}
+@keyframes header {
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .headerContainer{
     width: 100%;
@@ -46,6 +58,10 @@ header{
     justify-content: space-between;
     /* padding: 0 20px; */
 }
+.headerContainer h1{
+    letter-spacing: 3px;
+}
+
 .profileContainer{
     /* width: 30%; */
     height: auto;
@@ -88,6 +104,19 @@ header nav a{
     font-size: 1rem;
     letter-spacing: 1px;
     text-decoration: none;
+    opacity: 0;
+    animation: section .3s ease-in-out forwards;
+    animation-delay: .1s;
+}
+@keyframes section {
+    from{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 header nav a:hover{
     color: #dc3545;
@@ -100,8 +129,14 @@ header nav a:hover{
         gap: 35px;
     }
     .profileContainer{
-        position: absolute;
+        /* position: absolute; */
         /* left: -99%; */
-        right: -99%;
+        /* right: -99%; */
+        display: none;
+    }
+}
+@media (max-width: 367px) {
+    header nav{
+        gap: 20px;
     }
 }
