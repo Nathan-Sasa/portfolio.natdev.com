@@ -1,4 +1,27 @@
-<main>
+<!-- <main>
     <i class="ri-tools-fill"></i>
     <p>Page en construction !</p>
+</main> -->
+
+<main>
+    <section class="who-i-am">
+        <div class="profileImg">
+            <img src="https://i.ibb.co/r2CrWZvn/profile.jpg" alt="">
+        </div>
+        <div class="i-am">
+            <div *ngFor="let aboutMe of aboutsMe" class="me-card">
+                <div class="head-card">
+                    <div class="head-card-icon">
+                        <i class="{{aboutMe.icon}}"></i>
+                    </div>
+                    <div class="head-card-title">
+                        <h4>{{aboutMe.title}}</h4>
+                    </div>
+                </div>
+                <div class="body-card">
+                    {{aboutMe.description}}
+                </div>
+            </div>
+        </div>
+    </section>
 </main>

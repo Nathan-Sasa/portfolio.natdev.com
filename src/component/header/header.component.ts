@@ -12,6 +12,6 @@ export class HeaderComponent {
   dev = {
     name : 'Nathan Sasa',
     work : 'Web Developper',
-    profile: ''
+    profile: 'https://i.ibb.co/r2CrWZvn/profile.jpg">'
   }
 }

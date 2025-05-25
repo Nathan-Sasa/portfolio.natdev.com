@@ -71,7 +71,7 @@ main section:nth-child(1) div h2:nth-child(2){
     }
 }
 main section:nth-child(1) div p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     opacity: 0;
     color: #6c757d;
     animation: describe .5s ease-in-out forwards;
